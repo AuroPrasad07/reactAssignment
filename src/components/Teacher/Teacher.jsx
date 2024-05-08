@@ -8,7 +8,7 @@ import StudentImage from '../StudentImage/StudentImage';
 import student3 from '../../assets/student3.jpg'
 
 const Teacher = () => {
-  const [studentOpen, setStudentOpen] = useState(false);
+  const [studentOpen, setStudentOpen] = useState(true);
 
   return (
     <>
