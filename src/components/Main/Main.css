@@ -1,0 +1,98 @@
+.main {
+    height: fit-content;
+    margin-left: 0.8rem;
+    background: #fff;
+}
+.black-border {
+    border: 0.1rem solid black;
+    border-radius: 5px;
+}
+.main-container ul {
+    margin: 2rem 1rem 2rem 3rem;
+}
+.main-container ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+.upper-part {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.part-1 {
+    margin-right: 2rem;
+}
+.assignment-time {
+    padding-bottom: 1rem;
+}
+.assignment-time h4 { 
+    font-size: 1rem;
+    font-weight: 400;
+}
+.assignment-time p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.part-2 {
+    max-width: 20vw;
+    padding: 0rem 1rem;
+    border-left: 0.3rem solid rgba(128, 128, 128, 0.425);
+}
+.part-2 h2 {
+    font-size: 1rem;
+    padding-bottom: 0.3rem;
+}
+.part-2 p {
+    font-size: 0.9rem;
+}
+.bar {
+    height: 2.4vh;
+    width: 7.5vw;
+    background: rgb(31, 248, 31);
+    border: 0.2rem solid gray;
+    border-radius: 10px;
+}
+.part-3 button {
+    margin-top: 1rem;
+    padding: 0.3rem 0.9rem;
+    color: green;
+    border: 0.1rem solid rgba(50, 241, 50, 0.521);
+    border-radius: 5px;
+    font-weight: 500;
+}
+.icon {
+    padding-top: 3rem;
+}
+.bottom-part {
+    display: none;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.display {
+    display: flex;
+}
+.tasks p {
+    font-size: 0.8rem;
+    color: gray;
+    padding-bottom: 0.6rem;
+}
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 0.6rem;
+}
+.pupils {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 0.4rem;
+    width: 20vw;
+    padding-bottom: 0.6rem;
+}

@@ -1,0 +1,9 @@
+.student-image {
+    padding: 0rem 1.2rem;
+}
+.student-image img {
+    height: 8%;
+    width: 8%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}

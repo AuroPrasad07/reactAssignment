@@ -1,0 +1,18 @@
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.373);
+    color: rgb(128, 128, 128);
+}
+.navbar ul li {
+    padding: 1.2rem;
+    font-weight: bold;
+}
+.navbar ul li:hover {
+    background-color: #fff;
+    color: purple;
+}
